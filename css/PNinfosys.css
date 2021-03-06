@@ -1,0 +1,17 @@
+.text-center{
+	color:black;
+	font-weight:100;
+	font-size: 22px;
+}
+.rounded-circle{
+	box-sizing:border-box;
+	box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+	width: 160px;
+	height: 130px;
+}
+.card{
+	box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+	border:none;
+	width: 262px;
+    margin: 7px;
+}
