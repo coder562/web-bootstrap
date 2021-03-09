@@ -12,6 +12,37 @@
 .card{
 	box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
 	border:none;
-	width: 262px;
+	width: 100%;
     margin: 7px;
+}
+.rounded-circle:hover{
+	box-shadow: 0px 0px 25px rgb(151 215 250);
+}
+.container-fluid{
+	/*height: 755px;*/
+	height: 1023px;
+	background: #009df2;
+	margin-top: 140px;
+}
+.col-md-6{
+	/*border:2px solid;*/
+	height: 706px;
+}
+
+ul{
+	list-style-type:none;
+}
+.col-md-4{
+	width: 500px;
+	height: 500px;
+}
+
+.text-left:hover {
+	text-decoration: underline;
+}
+hr{
+	border: 0;
+	border-top: 1px solid white ;
+	top: 200px;
+	position: relative;
 }
