@@ -1,0 +1,137 @@
+.left {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 0;
+    font-family: Montserrat,sans-serif;
+    word-spacing: 2px;
+}
+.modal-content{
+	border: 3px solid #fbb029;
+    border-radius: 1rem;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)!important;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+
+}
+.form{
+	font-size: 12px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.feedback{
+	display:none;
+}
+@media (min-width: 992px){
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
+@media (min-width: 992px){
+.col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+}
+@media (min-width: 992px){
+.col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+}
+@media (min-width: 992px){
+.col-lg-5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 60px;
+    padding-bottom:60px;
+}
+.col-lg-7{
+	position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.head{
+	font-family: 'Akaya Kanadaka', cursive;
+	font-size: 39px;
+    line-height: 50px;
+    letter-spacing: 3px;
+}
+@media screen and (max-width: 600px){
+.head {
+    font-size: 25px!important;
+    line-height: 40px!important;
+    letter-spacing: 2px!important;
+}
+}
+p{
+	letter-spacing: 1px;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+.content {
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    word-spacing: 3px;
+}
+@media screen and (max-width: 600px){
+.content {
+    font-family: sans-serif;
+    font-size: 14px!important;
+    line-height: 23px!important;
+    word-spacing: 1px!important;
+}
+}
+.col-lg-5{
+	position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media screen and (max-width: 600px){
+.image {
+    margin-top: 30px!important;
+}
+}
+@media screen and (max-width: 600px){
+.l {
+    width: 100%;
+    text-align: center;
+}
+}
+.col-md-2{
+	
+	position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.small{
+    padding-left: 0!important;
+    padding-right: 0!important;
+}

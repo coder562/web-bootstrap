@@ -1,0 +1,53 @@
+.a{
+  	background-color: #0000009c;
+}
+li a{
+      color: white;
+      word-spacing: 20px;
+}
+.con1{
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	line-height: 20px;
+	font-size: 20px;
+	text-align:justify;
+	font-family:  Montserrat,sans-serif;
+
+}
+.banner{
+	background-image: url("http://www.firstfiddle.in/assets/images/bannerabout.jpg");
+    width: 100%;
+    padding-right: 0!important;
+    padding-left: 0!important;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+    
+}
+.con2{
+	font-size: 50px;
+	color:white;
+	text-align: center;
+	margin-top: 150px;
+}
+.con3{
+	font-size: 17px;
+	color:white;
+	text-align: center;
+	word-spacing: 3px;
+}
+.banner1{
+	background-image: url("http://www.firstfiddle.in/assets/images/bannerabout.jpg");
+    width: 100%;
+    padding-right: 0!important;
+    padding-left: 0!important;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+    
+}
+.con4{
+	font-size: 15px;
+	color:white;
+    word-spacing: 0px;
+}

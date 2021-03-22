@@ -1,0 +1,70 @@
+.mobile-logo{
+  		display:none;
+  	}
+  	@media(max-width:724px){
+  		.mobile-logo{
+  			display:block;
+  		}
+  		.web-logo{
+  			display:none;
+  		}
+  		.bg-color{
+  			background:#f3c420;
+  		}
+  	}
+
+    .a{
+      background-color: #0000009c;
+
+    }
+    ul li{
+      font-size:18px;
+    }
+    .ml-1 {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: 'Akaya Kanadaka', cursive;
+    letter-spacing: 3px;
+  }
+  .content{
+
+    line-height: 25px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #000;
+  }
+  .img2{
+    background:url(http://www.firstfiddle.in/assets/images/gamebanner.jpg);
+    width:100%;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .text1{
+    margin-top: 102px;
+     font-family: 'Akaya Kanadaka', cursive;
+    color: #fff;
+    font-size: 60px;
+  }
+  .owner{
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)!important;
+  }
+  .owner-content{
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+  .content2{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 35px;
+}
+.btn{
+  color:white;
+}
+.font{
+      font-size:40px;
+       color: #fcb21b;
+
+    }
