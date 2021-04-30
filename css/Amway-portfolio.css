@@ -1,0 +1,135 @@
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+.section-title {
+    padding-bottom: 40px;
+}
+.section-title h2 {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #5c8eb0;
+    font-family: sans-serif;
+}
+.section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+     font-family: 'Akaya Kanadaka', cursive;
+    color: #263d4d;
+}
+
+.d-flex {
+    display: flex!important;
+}
+@media (min-width: 992px){
+.col-lg-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+}
+.portfolio #portfolio-flters {
+    padding: 0;
+    margin: 0 auto 25px auto;
+    list-style: none;
+    text-align: center;
+    border-radius: 50px;
+}
+.portfolio #portfolio-flters li.filter-active {
+    color: #fff;
+    background: #ff4a17;
+}
+ul{
+	display: block;
+}
+.portfolio #portfolio-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: #444444;
+    margin: 0 3px 10px 3px;
+    transition: all ease-in-out 0.3s;
+    background: #e5edf3;
+    border-radius: 4px;
+}
+.portfolio .portfolio-item {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+@media (min-width: 992px){
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+}
+}
+ .portfolio-info {
+   
+   	opacity: 1;
+    left: 15px;
+    right: 15px;
+    bottom: -50px;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+    background: #ff4a17;
+    padding: 15px 20px;
+}
+
+ .portfolio-info h4 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    
+}
+ .portfolio-info p {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 0;
+   
+}
+.portfolio .portfolio-item {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+@media (min-width: 992px){
+.col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+}
+.portfolio-info:hover{
+    margin-top: -15px;
+    opacity: 0.7;
+}
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #ff4a17;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+.back-to-top i {
+    font-size: 24px;
+    color: #fff;
+    line-height: 0;
+}

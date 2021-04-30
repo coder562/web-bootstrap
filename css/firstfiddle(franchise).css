@@ -135,3 +135,133 @@ p{
     padding-left: 0!important;
     padding-right: 0!important;
 }
+@media screen and (max-width: 600px){
+
+.why{
+    padding-top: 0!important;
+}
+}
+@media screen and (max-width: 600px){
+
+.why{
+    font-family: Montserrat,sans-serif;
+    margin-top: 40px;
+    margin-left: 15px!important;
+}
+}
+.col-lg-4{
+	position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media screen and (max-width: 600px){
+
+.why2 {
+    margin-left: 0!important;
+}
+}
+@media screen and (max-width: 600px){
+
+.why3{
+    color: #000;
+    background-color: #ffad00;
+    padding: 10px!important;
+}
+}
+@media screen and (max-width: 600px){
+
+.why4 {
+    font-size: 20px;
+}
+}
+.col-lg-8{
+	position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.why5 {
+    font-family: Montserrat,sans-serif;
+    margin-top: 40px;
+    margin-left: -50px;
+}
+@media (min-width: 992px){
+.col-lg-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+}
+.column{
+
+    float: left;
+    width: 47%;
+    height: 250px;
+    margin: 1px;
+}
+img{
+	vertical-align: middle;
+	border-style: none;
+}
+.why6{
+    font-size: 11px;
+    padding: 10px 25px 30px 30px;
+}
+
+@media screen and (max-width: 600px){
+
+.why7{
+    font-size: 10px!important;
+    line-height: 13px;
+    letter-spacing: .4px;
+    padding: 10px!important;
+}
+}
+.why7{
+    font-size: 11px;
+    padding: 10px 25px 30px 30px;
+}
+.container-fluid{
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-lg-1{
+	position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.services{
+    font-family: 'Akaya Kanadaka', cursive;
+    letter-spacing: 2px;
+    font-size: 60px;
+    color: #feaf00;
+}
+@media screen and (max-width: 600px){
+
+.services{
+    font-family: 'Akaya Kanadaka', cursive;
+    letter-spacing: 2px;
+    font-size: 40px!important;
+    color: #feaf00;
+}
+}
+h1 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+@media screen and (max-width: 600px){
+
+.service2 {
+    color: #fff;
+    letter-spacing: 1px!important;
+}
+}
+.service2{
+	font-size: 15px;
+	line-height: 20px;
+}
